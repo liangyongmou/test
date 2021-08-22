@@ -12,6 +12,7 @@ pause
 
 :selectAll
 echo ----------------------------------------
+echo '*.bat'>.gitignore
 git add .
 echo 正在进行提交中...
 set "month=%date:~5,2%"
